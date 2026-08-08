@@ -32,6 +32,7 @@ The ESP8266 operates as a Wi-Fi access point and runs a web server that receives
 - Robot chassis
 - LEDs for headlights
 - 7.4V battery
+- Switch
 - Connecting wires
 
 ## Circuit Diagram
@@ -65,11 +66,11 @@ The Arduino code used to control the rover is included in this repository:
 
 ## How It Works
 
-The ESP8266 is configured as a Wi-Fi access point and runs an HTTP web server.
+The ESP8266 creates its own Wi-Fi network, which the mobile phone connects to.
 
-The mobile application sends commands to the ESP8266. These commands are interpreted by the code and used to control the L298N motor driver.
+The mobile app sends movement and speed commands to the ESP8266. The ESP8266 then processes these commands and controls the L298N motor driver.
 
-The L298N controls the direction and speed of the four BO motors. The headlights turn on when the rover moves and turn off when the rover stops.
+The L298N drives the four BO motors in the required direction and at the selected speed. The headlights turn on when the rover moves and turn off when it stops.
 
 ## Project Demo
 
