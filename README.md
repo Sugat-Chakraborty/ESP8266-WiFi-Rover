@@ -45,7 +45,7 @@ The Fritzing diagram shows the connections between the ESP8266, L298N motor driv
 
 ## Power Supply Note
 
-> **Do not use the 5V output of the L298N motor driver to power the ESP8266. Instead, a buck converter is used to step down the 7.4V battery supply to 5V, which is then used to power the ESP8266 development board.**
+> **Do not use the 5V output of the L298N motor driver to power the ESP8266. Instead, a buck converter can be used to step down the 7.4V battery supply to 5V, which is then used to power the ESP8266 development board.**
 
 ## Control
 
