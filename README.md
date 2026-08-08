@@ -36,7 +36,7 @@ The ESP8266 operates as a Wi-Fi access point and runs a web server that receives
 
 ## Circuit Diagram
 
-The Fritzing diagram shows the connections between the ESP8266, L298N motor driver, motors, headlights, and power supply.
+The Fritzing diagram shows the connections between the ESP8266, L298N motor driver, motors, headlights.
 
 <p align="center">
   <img src="Circuit/circuit diagram.jpg" alt="Fritzing Circuit Diagram" width="800">
@@ -55,3 +55,30 @@ The ESP8266 creates its own Wi-Fi network:
 ```text
 NodeMCU Car
 The mobile device connects to this network and sends movement and speed commands to the rover.
+
+```
+## Firmware
+
+The Arduino code used to control the rover is included in this repository:
+
+[code.ino](code.ino)
+
+## How It Works
+
+The ESP8266 is configured as a Wi-Fi access point and runs an HTTP web server.
+
+The mobile application sends commands to the ESP8266. These commands are interpreted by the code and used to control the L298N motor driver.
+
+The L298N controls the direction and speed of the four BO motors. The headlights turn on when the rover moves and turn off when the rover stops.
+
+## Project Demo
+
+Photos and videos of the rover in operation are shared on my Instagram project page.
+
+[View the project on Instagram]()
+
+## Project Status
+
+**Completed**
+
+
