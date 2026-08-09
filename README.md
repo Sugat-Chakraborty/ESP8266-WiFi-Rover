@@ -74,9 +74,9 @@ The L298N drives the four BO motors in the required direction and at the selecte
 
 ## Project Demo
 
-Photos and videos of the rover in operation are shared on my Instagram project page.
+Project demonstration is available on my Instagram project page.
 
-[View the project on Instagram]()
+[View the project on Instagram](https://www.instagram.com/reel/Db0n5bSKTgB/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==)
 
 ## Project Status
 
